@@ -1,4 +1,4 @@
-					**Apache Zookeeper setup in Stand-Alone Mode**				      
+					***Apache Zookeeper setup in Stand-Alone Mode***				      
 
 Pre-requisites:
 ==============
