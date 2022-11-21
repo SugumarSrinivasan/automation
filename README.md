@@ -7,14 +7,14 @@ Pre-requisites:
 	2. ZK USER should have the sudo privilege to execute the shell script.
 	3. Internet access is required on ZK Server for downloading the zookeeper tar file from official zookeeper repository.
 	4. OpenJDK 1.6 or later version should be pre-installed on the Server/VM.
-	5. Copy zookeeper_installer.sh to the target server.
-	6. Grant execute permission to zookeeper_installer.sh.
+	5. Copy zookeeper_standalone_installer.sh to the target server.
+	6. Grant execute permission to zookeeper_standalone_installer.sh.
 
 Note: This shell script is tested with RHEL, CentOS and Amazon Linux-2
 
 Execution:
 ==========
-	1. Execute the shell script as follows sudo sh <script_path>/zookeeper_installer.sh
+	1. Execute the shell script as follows sudo sh <script_path>/zookeeper_standalone_installer.sh
 	2. Enter ZK User		[Example: ec2-user]
 	3. Enter ZK Group		[Example: ec2-user]
 	4. Enter ZK Version		[Example: 3.5.5]
